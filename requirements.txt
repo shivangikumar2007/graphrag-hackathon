@@ -1,8 +1,0 @@
-streamlit
-pandas
-numpy
-transformers
-sentence-transformers
-faiss-cpu
-torch
-pyTigerGraph==1.7.0

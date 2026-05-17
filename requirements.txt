@@ -5,4 +5,4 @@ transformers
 sentence-transformers
 faiss-cpu
 torch
-pyTigerGraph
+pyTigerGraph==1.8.0

@@ -51,7 +51,13 @@ embedder = SentenceTransformer(
     "all-MiniLM-L6-v2"
 )
 
-df = pd.read_csv("books.csv")
+import os
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+csv_path = os.path.join(BASE_DIR, "books.csv")
+
+df = pd.read_csv(csv_path)
 
 documents = df["summary"].tolist()
 

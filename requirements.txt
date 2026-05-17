@@ -1,0 +1,8 @@
+streamlit
+pandas
+numpy
+transformers
+sentence-transformers
+faiss-cpu
+torch
+git+https://github.com/tigergraph/pyTigerGraph.git

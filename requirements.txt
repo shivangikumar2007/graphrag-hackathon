@@ -1,4 +1,8 @@
 streamlit
-openai
+pandas
+numpy
+transformers
 sentence-transformers
 faiss-cpu
+torch
+pyTigerGraph

@@ -1,4 +1,4 @@
-from pyTigerGraph import TigerGraphConnection
+from pyTigerGraph.pyTigerGraph import TigerGraphConnection
 
 conn = TigerGraphConnection(
     host="https://tg-569e8832-4ce5-46eb-a01f-58f4eef59305.tg-3452941248.i.tgcloud.io",
